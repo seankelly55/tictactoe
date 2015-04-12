@@ -58,7 +58,8 @@ grid
 	Response: JSON array
 	Example: http://cs2.uco.edu/~gq011/tictactoe/?controller=api&method=grid&gameid=123ghv1234jb	
 
-	
+The user who starts the game will be Player 1.
+This allows a third party to delegate who is Player 1 and Player 2 to remove any randomness from the outcome.	
 	
 All responses use http code of 200, if an error occurs the response code is set to 400.
 In the event of an error you may also get one of the following error messages as a response:
